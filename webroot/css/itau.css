@@ -1,0 +1,146 @@
+body {
+	background: white;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container-itau {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a111+0,fd7e0d+100 */
+	background: #e8a111; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e8a111 0%, #fd7e0d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #e8a111 0%,#fd7e0d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #e8a111 0%,#fd7e0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a111', endColorstr='#fd7e0d',GradientType=0 ); /* IE6-9 */
+	min-height: 100vh;
+}
+
+.bg-image {
+	background: linear-gradient(rgba(232, 161, 17, 0.9), rgba(253, 126, 13, 0.9)), url(../img/itau/bg.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.container-itau img.init_logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.logo_form {
+	max-width: 70px
+}
+
+.trinta_hrs_form {
+	float: right;
+	top: 0;
+}
+
+.navbar {
+	background: white;
+}
+
+.form-control, .form-group .form-control {
+
+}
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.btn-itau {
+	background-color: #F6F5F0;
+	color: #85827D;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: white !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white !important;
+   opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white !important;
+   opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: white !important;
+}
+
+.form-control, .form-group .form-control, .form-group.is-focused .form-control {
+	background-image: linear-gradient(#e8a111, #fd7e0d), linear-gradient(#fff, #D2D2D2);
+}
+
+.loader_obs {
+	color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center
+}
+
+.form-control {
+	color: white;
+}
+
+.row-fix {
+	width: 100%;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle {
+    background-color: #FFFFFF !important;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle:after {
+    border-color: #FFFFFF !important;
+    
+}
+
+.togglebutton label {
+	color: white;
+}
+
+.center-justify {
+	text-align: justify;
+	-moz-text-align-last: center;
+	text-align-last: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.card-itau {
+	padding: 15px;
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+	display: table;
+	color: green;
+}
+
+.container-relative {
+	position: relative;
+	padding-top: 20px;
+}
+
+.saving-logo {
+	width: 80px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.p-saving-logo {
+	text-align: center;
+}
+
+.container {
+	padding: 0 !important;
+}

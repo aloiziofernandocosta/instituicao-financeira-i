@@ -1,0 +1,179 @@
+body {
+	background: white;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.container-santander {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8a111+0,fd7e0d+100 */
+	background: #FE0000; /* Old browsers */
+	
+	min-height: 100vh;
+}
+
+.bg-image {
+	background: #fff;
+
+}
+
+.container-santander img.init_logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	max-width: 100%;
+}
+
+.container-santander img.init_logo-2 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	max-width: 100%;
+}
+
+.logo_form {
+	max-width: 200px;
+}
+
+.trinta_hrs_form {
+	float: right;
+	top: 0;
+}
+
+.navbar {
+	background: #FE0000;
+	margin-bottom: 0px;
+}
+
+.navbar-acesso {
+	background: #EAEAEA;
+}
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	background: #fe0000;
+}
+
+.btn-santander {
+	background-color: #393939;
+	color: #FFF;
+}
+
+.btn-santander-inverse {
+	background-color: #fe0000;
+	color: black;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: gray !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: gray !important;
+   opacity:  1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: gray !important;
+   opacity:  1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: gray !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: gray !important;
+}
+
+.form-control, .form-group .form-control, .form-group.is-focused .form-control {
+	background-image: linear-gradient( #FE0000,  #FE0000), linear-gradient(#fff, #D2D2D2);
+}
+
+.loader_obs {
+	color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center
+}
+
+.form-control {
+	color: gray;
+}
+
+.row-fix {
+	width: 100%;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-ativar-cartao {
+	background-image: linear-gradient( #F4F4F4,  #E9E9E9);
+	text-align: center; 
+	color: #FE0000; 
+	font-size: 20px;
+}
+
+.navbar-separador {
+	background-image: linear-gradient( #F4F4F4,  #E9E9E9);
+	min-height: 10px !important; 
+}
+
+.div-cartao {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background: #fff;
+}
+
+.div-rodape {
+	background-image: linear-gradient( #F4F4F4,  #E9E9E9);
+}
+
+.div-arquivo {
+	text-align: center;
+}
+
+.arquivo {
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.div-enviar-foto {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.navbar-acesso-div {
+	color: #FE0000;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.icon_key {
+	max-width: 60px; 
+	left: 40px; 
+	position: absolute; 
+	top: 0px;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle {
+    background-color: #fe0000 !important;
+}
+
+.togglebutton label input[type=checkbox]:checked + .toggle:after {
+    border-color: #fe0000 !important;
+    background-color: #FFFFFF;
+    
+}
